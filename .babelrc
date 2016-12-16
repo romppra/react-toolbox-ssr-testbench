@@ -1,0 +1,25 @@
+{
+  "presets": [
+    "es2015",
+    "es2016",
+    "stage-0",
+    "react"
+  ],
+  "env": {
+    "development": {
+      "plugins": [
+        "react-hot-loader/babel",
+        "add-module-exports",
+        "transform-decorators-legacy",
+        "transform-runtime",
+        "transform-react-display-name",
+        "transform-class-properties",
+        "transform-function-bind",
+        "transform-object-rest-spread",
+        "transform-react-jsx-self",
+        "transform-react-jsx-source",
+        "typecheck"
+      ]
+    }
+  }
+}
